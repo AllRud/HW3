@@ -1,0 +1,169 @@
+body{
+	background-color: #e3f0ef;
+}
+
+.main-container{
+	background-color: #f9f9f9;
+	font-family:"Arial";
+	font-size: 15px;
+	width: 100%;
+	height:100%;
+	min-width:980px;
+	max-width:1920px;
+	margin: auto auto;
+	padding-bottom:60px;
+}
+	
+.page-container{
+	background-color: white;
+	width: 75%;
+	height: 950px;
+	margin: 0 auto;
+	padding-bottom: 35px;
+	text-align: left;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.37);
+}
+
+header img{
+	margin: 50px;
+}
+.main_menu{
+	background: linear-gradient(to top left, #5e5e5e, #454444);
+	height: 40px;
+	margin: 0px 50px;
+}
+
+.hor_menu{
+	overflow: hidden;
+}
+
+.hor_menu li{
+	float: left;
+	height: 40px;
+	color: white;
+}
+	
+.hor_menu li a{
+	display: inline-block;
+	text-decoration:none;
+	margin: 12px 50px 12px 25px;
+	color:white;
+}
+
+.hor_menu li a:link, header li a:visited{
+    color: white;
+}
+
+.hor_menu li:hover{
+    background-color: #333333;
+	cursor: default;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-left-color: #999999;
+	border-right-color: #999999;
+}
+
+.hor_menu li a:hover{
+    cursor: default;
+}
+
+.two_columns{
+	margin: 40px 50px;
+	height: 620px;
+	overflow: hidden;	
+}
+nav {
+    float: left;
+    width: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	border-bottom-style: none;
+}
+	
+nav li{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+}
+
+nav li a{
+	display: inline-block;
+	text-decoration:none;
+	margin: 12px 24px;
+	color: black;
+}
+
+nav li:hover{
+	background-color: #f9f9f9;
+}
+
+nav li a:hover{
+	font-weight: bold;
+	margin-left: 36px;
+}
+
+.cont_img {
+    margin-left: 245px;
+	padding: 45px 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	overflow: auto;
+} 
+
+.cont_img img{
+    margin-left: 60px;
+} 
+
+.cont_text{
+	height: 160px;
+	margin-left: 250px;
+	margin-top: 40px;
+	font-size: 13px;
+	line-height: 22px;
+	overflow: auto;
+}
+
+.footer_menu{
+	margin: 40px 50px;
+	height: auto;
+	overflow: auto;
+	background-color: #cccccc;
+}
+
+.section_fm{
+	width: 635px;
+}	
+	
+.footer_menu .hor_menu{
+    float: left;
+}
+
+.footer_menu li a{
+	color: black;
+}
+
+.footer_menu li:hover{
+	background-color: #cccccc;
+	border-style: none;
+}
+	
+.footer_menu a:hover{
+	text-decoration: underline;
+}	
+
+.footer_menu .all_rights{
+   float: right;
+   margin: 12px 15px 12px auto;
+} 
+	
+	
+	
+
+
+
